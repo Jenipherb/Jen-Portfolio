@@ -4,7 +4,7 @@ import Footer from "./Footer";
 function Landing() {
     console.log("that")
     return (
-      <div>
+      <div style={{backgroundColor: "#ded8ee"}}>
         <Image
          src={require("../Images/jen-image.jpg")}
          alt='profile-pic'

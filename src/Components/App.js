@@ -9,7 +9,7 @@ import { Routes, Route} from "react-router-dom";
 function App() {
   console.log("this");
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor: "#ded8ee"}}>
     
         <NavBar />
         <Routes>
