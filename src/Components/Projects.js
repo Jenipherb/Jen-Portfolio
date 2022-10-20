@@ -4,6 +4,7 @@ function Projects() {
   return (
     <div style={{backgroundColor: "#ded8ee"}}>
         <br></br>
+        <div>
       <Card.Group  centered itemsPerRow={5}>
         <Card style={{ backgroundColor: "#c2d9ee" }}>
             <Image
@@ -93,6 +94,7 @@ function Projects() {
           </Card.Content>
         </Card>
       </Card.Group>
+      </div>
     </div>
   );
 }

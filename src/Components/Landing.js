@@ -1,10 +1,12 @@
 import { Container, Image, Menu, Icon } from "semantic-ui-react";
 import Footer from "./Footer";
 
+
 function Landing() {
     console.log("that")
     return (
-      <div style={{backgroundColor: "#ded8ee"}}>
+      <div style={{backgroundColor: "#ded8ee", height: "auto"}}>
+        <br></br>
         <Image
          src={require("../Images/jen-image.jpg")}
          alt='profile-pic'

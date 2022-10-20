@@ -2,11 +2,11 @@ import { Image } from 'semantic-ui-react'
 
 function Footer(){
     return(
-        <div style=
+        <div flex style=
         {{
         bottom: "0",
         left: "0",
-        marginTop: "25px",
+        marginTop: "171px",
         width: "100%",
         backgroundColor: "#c2d9ee"
         }}>
