@@ -11,7 +11,7 @@ function Footer(){
         backgroundColor: "#c2d9ee"
         }}>
             <h3>Technologies Used</h3>
-            <Image src={require("../Images/techs.png")}
+            <Image src={require("../Assets/techs.png")}
             alt="technologies" style={{position: "relative", height: "40xp", display: "block", marginLeft: "auto", marginRight: "auto"}}/>
         </div>
     )

@@ -10,7 +10,7 @@ function Projects() {
             <Image
               floated="right"
               size="medium"
-              src={require("../Images/spoon-of-sugar.png")}
+              src={require("../Assets/spoon-of-sugar.png")}
             />
             <Card.Content>
             <Card.Header>Spoon Full Of Sugar</Card.Header>
@@ -31,7 +31,7 @@ function Projects() {
             <Image
               floated="right"
               size="medium"
-              src={require("../Images/stackoverflat.jpg")}
+              src={require("../Assets/stackoverflat.jpg")}
             />
             <Card.Content>
             <Card.Header>Stackoverflat</Card.Header>
@@ -51,7 +51,7 @@ function Projects() {
             <Image
               floated="right"
               size="medium"
-              src={require("../Images/GitGUDLight.png")}
+              src={require("../Assets/GitGUDLight.png")}
             />
             <Card.Content>
             <Card.Header>Git Gud</Card.Header>
@@ -72,7 +72,7 @@ function Projects() {
               floated="right"
               size="medium"
               style={{ width: 300, height: 300 }} 
-              src={require("../Images/Forge-destiny.jpg")}
+              src={require("../Assets/Forge-destiny.jpg")}
             />
             <Card.Content>
             <Card.Header>Forge the Destiny</Card.Header>

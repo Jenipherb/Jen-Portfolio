@@ -4,6 +4,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import Projects from "./Projects";
 import Blogs from "./Blogs";
+import Resume from "./Resume";
 
 import { Routes, Route} from "react-router-dom";
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/blogs" element={<Blogs />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
         
       

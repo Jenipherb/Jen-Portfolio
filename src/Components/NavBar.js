@@ -6,7 +6,7 @@ const NavBar = () => {
 
   const styleNav = {
     backgroundColor: "#eccedc",
-    color: "black",
+    color: "blue",
   };
   return (
     <div>
@@ -21,10 +21,10 @@ const NavBar = () => {
             <h3>Projects</h3>
           </Link>
         </Menu.Item>
-        <Menu.Item>
-          <Link to="/blogs">
+        <Menu.Item href="https://medium.com/@jenipherbelloso" style={{color: "#4087c9"}}>
+          
             <h3>Blogs</h3>
-          </Link>
+          
         </Menu.Item>
         <Menu.Item>
           <Link to="/resume">

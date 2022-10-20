@@ -8,7 +8,7 @@ function Landing() {
       <div style={{backgroundColor: "#ded8ee", height: "auto"}}>
         <br></br>
         <Image
-         src={require("../Images/jen-image.jpg")}
+         src={require("../Assets/jen-image.jpg")}
          alt='profile-pic'
          circular
          centered
